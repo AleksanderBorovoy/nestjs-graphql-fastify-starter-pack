@@ -1,0 +1,37 @@
+type User {
+  id: ID!
+  username: String!
+  email: String!
+  password: String!
+}
+
+type Mutation {
+  createUser(data: UserInput): User!
+  signIn(data: SignInInput): String!
+  changePassword(data: ChangePasswordInput!): User!
+  forgotPassword(data: ForgotPasswordInput!): String!
+  setPassword(data: SetPasswordInput!): User!
+}
+input UserInput {
+  username: String!
+  email: String!
+  password: String!
+}
+input SignInInput {
+  email: String!
+  password: String!
+}
+
+input ChangePasswordInput {
+  password: String!
+  newpassword: String!
+}
+
+input ForgotPasswordInput {
+  email: String!
+}
+
+input SetPasswordInput {
+  token: String!
+  newpassword: String!
+}

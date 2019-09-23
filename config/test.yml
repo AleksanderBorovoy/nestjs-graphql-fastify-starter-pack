@@ -1,0 +1,7 @@
+db:
+  name: 'nest-test'
+  drop: true
+
+jwt:
+  secret: 'secretForTestandDev'
+  expiresIn: 360000
