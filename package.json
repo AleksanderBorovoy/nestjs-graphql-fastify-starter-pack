@@ -32,7 +32,7 @@
         "apollo-server-fastify": "^2.9.3",
         "bcryptjs": "^2.4.3",
         "chai": "^4.2.0",
-        "class-transformer": "^0.2.3",
+        "class-transformer": "^0.3.1",
         "config": "^3.2.2",
         "graphql": "^14.5.5",
         "graphql-tools": "^4.0.5",
