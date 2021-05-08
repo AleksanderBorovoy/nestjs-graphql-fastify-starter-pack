@@ -43,7 +43,7 @@
         "rimraf": "^2.6.2",
         "rxjs": "^6.3.3",
         "type-graphql": "^0.17.5",
-        "typeorm": "^0.2.19",
+        "typeorm": "^0.2.25",
         "uuid-token-generator": "^1.0.0"
     },
     "devDependencies": {
